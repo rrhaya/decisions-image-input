@@ -1,0 +1,19 @@
+{
+  "name": "decisions-image-input",
+  "version": "0.1.0",
+  "description": "Dependency-free image inputs for the OpenAI Decisions API, with a YouTube thumbnail adapter.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.9" },
+  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js" } },
+  "bin": { "decisions-image": "./bin/decisions-image.js" },
+  "files": ["src", "bin", "presets", "README.md", "LICENSE"],
+  "scripts": {
+    "cli": "node --env-file-if-exists=.env bin/decisions-image.js",
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check bin/decisions-image.js"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/rrhaya/decisions-image-input.git" },
+  "bugs": { "url": "https://github.com/rrhaya/decisions-image-input/issues" },
+  "homepage": "https://github.com/rrhaya/decisions-image-input#readme"
+}

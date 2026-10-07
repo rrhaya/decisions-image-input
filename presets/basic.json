@@ -1,0 +1,13 @@
+{
+  "version": "basic-v1",
+  "questions": {
+    "alcohol": "Is alcohol, drinking, or the presentation of alcoholic beverages a main subject? Exclude disinfectants and small amounts used only in cooking.",
+    "real_violence": "Does the image show real-world physical violence, blood, or injuries? Exclude game imagery and metaphors.",
+    "game_combat": "Does the image show shooting, fighting, or attacks using weapons within a video game?",
+    "sexual_content": "Is sexual depiction, sexual activity, or sex education a main subject? Exclude ordinary romance alone.",
+    "news_context": "Is the subject presented as news reporting?",
+    "educational_context": "Is the subject presented as educational, medical, or preventive information?",
+    "food": "Is food, cooking, or a cooking procedure a main subject?",
+    "sports": "Is a sporting competition, practice, or spectatorship a main subject?"
+  }
+}

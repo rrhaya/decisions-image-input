@@ -1,0 +1,62 @@
+{
+  "version": "garm-2020-iab-2.2-thumbnail-draft-v1",
+  "reference": "11 categories incorporated by IAB Content Taxonomy 2.2 from the September 2020 GARM framework",
+  "status": "Experimental original prompts, not certified and not a complete GARM assessment",
+  "categories": {
+    "adult_sexual": {
+      "label": "Adult and explicit sexual content",
+      "topic": "Are sexual depictions, sexual discussion, or sex education present? Exclude ordinary romance alone.",
+      "floorSignal": "Are explicit sexual acts, exposed genitals, or endorsement of sexual exploitation visible? Sex education as a topic alone does not qualify."
+    },
+    "arms_ammunition": {
+      "label": "Arms and ammunition",
+      "topic": "Are weapons or ammunition depicted or discussed, including fictional or game weapons?",
+      "floorSignal": "Does the content encourage weapon use to harm others or explicitly promote obtaining, making, or selling illegal weapons? Mere weapon presence does not qualify."
+    },
+    "crime_harm_human_rights": {
+      "label": "Crime, harmful acts, and human rights violations",
+      "topic": "Are crime, abuse, self-harm, animal cruelty, human rights violations, or bullying depicted or discussed?",
+      "floorSignal": "Is there encouragement of crime, abuse, rights violations, or self-harm; graphic harm; or bullying or harassment? Merely explaining an incident does not qualify."
+    },
+    "death_injury_conflict": {
+      "label": "Death, injury, or military conflict",
+      "topic": "Are real-world death, injury, violence, or military conflict depicted or discussed? Exclude game-only combat.",
+      "floorSignal": "Is there incitement of real-world killing or military attacks, graphic bodily harm, or live-action military action or war crimes? Non-graphic incident discussion alone does not qualify."
+    },
+    "online_piracy": {
+      "label": "Online piracy",
+      "topic": "Are piracy, copyright infringement, or counterfeit distribution or access discussed? Merely showing a work or product does not qualify.",
+      "floorSignal": "Does the content offer or direct access to explicitly unauthorized copies or counterfeits? Do not assume rights or permissions from a thumbnail."
+    },
+    "hate_aggression": {
+      "label": "Hate speech and aggression",
+      "topic": "Is identity-based discrimination, hate, or exclusion depicted or discussed? The presence of an identity group alone does not qualify.",
+      "floorSignal": "Does the content dehumanize people or incite hatred, exclusion, or violence based on identity? A quotation criticizing discrimination does not by itself qualify."
+    },
+    "obscenity_profanity": {
+      "label": "Obscenity and profanity",
+      "topic": "Are obscenity, profanity, insulting gestures, or graphic or repulsive depictions present?",
+      "floorSignal": "Is there excessive strong profanity or obscene gestures, or graphic or repulsive imagery that subjects viewers to shock or insult?"
+    },
+    "drugs_tobacco_alcohol": {
+      "label": "Illegal drugs, tobacco, vaping, and alcohol",
+      "topic": "Are illegal drugs, tobacco, vaping, or alcohol depicted or discussed? Exclude disinfectants and small cooking uses alone.",
+      "floorSignal": "Does the content explicitly promote illegal drug use or sales, prescription misuse, or underage drinking or smoking? Adult alcohol presentation alone does not qualify. Do not guess age or legality from appearance."
+    },
+    "spam_harmful_content": {
+      "label": "Spam or harmful content",
+      "topic": "Are spam, malware, or phishing depicted or discussed?",
+      "floorSignal": "Does the content encourage malware distribution or execution, or participation in credential-stealing phishing? Defensive warnings alone do not qualify; do not infer linked-site behavior."
+    },
+    "terrorism": {
+      "label": "Terrorism",
+      "topic": "Are terrorist activities or organizations depicted or discussed? Do not infer terrorism from religion or nationality.",
+      "floorSignal": "Does the content endorse, recruit for, or promote terrorist activities or harm to their victims? Non-graphic reporting or historical discussion alone does not qualify."
+    },
+    "sensitive_social_issues": {
+      "label": "Debated sensitive social issues",
+      "topic": "Is a socially contested political, religious, rights-related, or immigration issue being debated? Mere presence of a person or identity does not qualify.",
+      "floorSignal": "Does discussion of a contested social issue demean a group or incite conflict or harm? Controversy or disagreement alone does not qualify."
+    }
+  }
+}
